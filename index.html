@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>LexPar Map v2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    crossorigin=""
+  />
+
+  <!-- MarkerCluster -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- 💙 TOP BAR FIXE -->
+  <header class="top-bar">
+    <div class="top-bar-left">
+      <div class="app-title">LexPar Map</div>
+      <div class="app-subtitle">Terrasses • Travaux • Perturbants • Arrêtés</div>
+    </div>
+
+    <div class="top-bar-center">
+      <div class="search-wrapper">
+        <input
+          type="text"
+          id="search"
+          placeholder="Rechercher une rue de Paris…"
+          autocomplete="off"
+        />
+        <div id="autocomplete-list" class="autocomplete-list"></div>
+      </div>
+    </div>
+
+    <div class="top-bar-right">
+      <button id="btnTerrasses" class="btn-layer btn-green active">Terrasses</button>
+      <button id="btnTravaux" class="btn-layer btn-yellow active">Travaux</button>
+      <button id="btnPerturbants" class="btn-layer btn-red active">Perturbants</button>
+      <button id="btnArretes" class="btn-layer btn-grey">Arrêtés</button>
+
+      <button id="btnGeoloc" class="btn-secondary">Autour de moi</button>
+      <button id="btnDelete" class="btn-secondary btn-danger">Supprimer</button>
+    </div>
+  </header>
+
+  <main class="main-layout">
+    <div id="map"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <script src="app.js"></script>
+</body>
+</html>

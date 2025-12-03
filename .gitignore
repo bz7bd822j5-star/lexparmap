@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Build output
+dist/
+site-deploy.zip
+
+# Caches
+pdf_cache/
+.cache/
+
+# Deployment
+.netlify/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
