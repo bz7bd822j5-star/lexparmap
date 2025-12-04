@@ -1,0 +1,50 @@
+[
+  {
+    "geo": {
+      "lat": 48.8598,
+      "lon": 2.2938
+    },
+    "info": {
+      "Nom de l'enseigne": "Café de la Paix",
+      "Typologie": "Café",
+      "Numéro et voie": "1 rue de l'Opéra",
+      "Arrondissement": "9e",
+      "SIRET": "75012345678901",
+      "Longueur": "5",
+      "Largeur": "3",
+      "Lien affichette": "https://example.com"
+    }
+  },
+  {
+    "geo": {
+      "lat": 48.8661,
+      "lon": 2.3345
+    },
+    "info": {
+      "Nom de l'enseigne": "Brasserie du Marais",
+      "Typologie": "Restaurant",
+      "Numéro et voie": "42 rue de Turenne",
+      "Arrondissement": "4e",
+      "SIRET": "75023456789012",
+      "Longueur": "8",
+      "Largeur": "4",
+      "Lien affichette": "https://example.com"
+    }
+  },
+  {
+    "geo": {
+      "lat": 48.8530,
+      "lon": 2.3495
+    },
+    "info": {
+      "Nom de l'enseigne": "Le Comptoir Latin",
+      "Typologie": "Bar",
+      "Numéro et voie": "52 rue Mouffetard",
+      "Arrondissement": "5e",
+      "SIRET": "75034567890123",
+      "Longueur": "4",
+      "Largeur": "2.5",
+      "Lien affichette": "https://example.com"
+    }
+  }
+]

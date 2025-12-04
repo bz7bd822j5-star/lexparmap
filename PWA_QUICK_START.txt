@@ -1,0 +1,154 @@
+🚀 QUICK START PWA - LexPar Map v2.1
+════════════════════════════════════════════════════════════
+
+1️⃣ LANCER L'APP:
+
+   Méthode 1 - Simple:
+   $ python3 -m http.server 8000
+
+   Méthode 2 - Recommandé (avec headers PWA):
+   $ python3 server.py
+
+   Puis ouvrez: http://localhost:8000
+
+════════════════════════════════════════════════════════════
+
+2️⃣ VÉRIFIER SERVICE WORKER:
+
+   DevTools:
+   F12 → Application → Service Workers → ✅ Active
+
+   Console:
+   > swManager.getStatus()
+   { registered: true, online: true, cacheSize: "X.XX", ... }
+
+════════════════════════════════════════════════════════════
+
+3️⃣ INSTALLER L'APP:
+
+   iPhone:
+   - Bouton Partage → Ajouter à l'écran d'accueil
+   - Choisir "LexPar"
+   - Ajouter
+
+   Android:
+   - Menu ⋮ → Installer l'app
+   - OU Bouton "Ajouter à l'écran d'accueil"
+
+════════════════════════════════════════════════════════════
+
+4️⃣ UTILISER APP OFFLINE:
+
+   Fermer WiFi/données mobiles
+   → App fonctionne toujours!
+   → Carte + Données en cache
+
+════════════════════════════════════════════════════════════
+
+5️⃣ TESTER OFFLINE MODE:
+
+   DevTools:
+   F12 → Network → Throttling → Offline
+   → App fonctionne (cache)
+   → Indicateur: "Mode hors ligne"
+
+════════════════════════════════════════════════════════════
+
+6️⃣ COMMANDES CONSOLE:
+
+   // Status
+   swManager.getStatus()
+
+   // Vérifier mises à jour
+   await swManager.checkForUpdates()
+
+   // Vider cache
+   await swManager.clearCache()
+
+   // Taille cache
+   await swManager.getCacheSize()
+
+   // Mettre en cache
+   await swManager.cacheUrls(['/travaux.json'])
+
+════════════════════════════════════════════════════════════
+
+7️⃣ RACCOURCIS APP:
+
+   Après installation, long-press sur icône:
+   
+   🟢 Terrasses   → Affiche terrasses
+   🟡 Travaux     → Affiche travaux
+   🔴 Perturbants → Affiche perturbants
+   🔵 Arrêtés     → Affiche BOVP
+   🔍 Recherche   → Focus recherche
+   📍 Localisation → Géolocalisation
+
+════════════════════════════════════════════════════════════
+
+8️⃣ MISE À JOUR VERSION:
+
+   Nouvelle version détectée?
+   → Banner: "Nouvelle version! [Mettre à jour]"
+   → Cliquez: App rafraîchit avec nouvelle version
+
+════════════════════════════════════════════════════════════
+
+9️⃣ CACHE MANAGEMENT:
+
+   DevTools → Application → Cache Storage:
+   
+   lexparmap-v2.0          (Données JSON)
+   lexparmap-static-v2     (Assets: CSS, JS, Leaflet)
+   lexparmap-runtime-v2    (API responses)
+   lexparmap-images-v2     (Images)
+
+   Taille totale: ~30-50 MB
+
+════════════════════════════════════════════════════════════
+
+📚 DOCUMENTATION:
+
+   PWA.md              - Guide complet
+   PWA_SUMMARY.txt     - Vue d'ensemble
+   CHANGELOG.md        - Historique v2.1
+
+════════════════════════════════════════════════════════════
+
+✨ FEATURES:
+
+✅ Offline support complet
+✅ Cache intelligent (4 stratégies)
+✅ Installation app (iOS/Android)
+✅ Raccourcis app
+✅ Notifications updates
+✅ Sync arrière-plan (futur)
+✅ Dark mode (futur)
+✅ Voice search (futur)
+
+════════════════════════════════════════════════════════════
+
+🐛 TROUBLESHOOTING:
+
+SW n'apparaît pas?
+→ Vérifiez: Inspect → Application → SW
+→ Console pour erreurs
+
+App ne s'installe pas?
+→ Nécessite HTTPS (sauf localhost)
+→ Manifest valide
+→ SW enregistré et actif
+
+Offline mode pas dispo?
+→ Données pas encore mises en cache
+→ Rafraîchissez la page avant d'aller offline
+
+Cache trop volumineux?
+→ swManager.clearCache()
+→ Ou défaut du navigateur
+
+════════════════════════════════════════════════════════════
+
+Version: 2.1 PWA
+Status: ✅ Production Ready
+Profitez! 🚀

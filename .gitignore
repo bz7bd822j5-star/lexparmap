@@ -1,0 +1,51 @@
+# 🚫 Fichiers à ignorer pour sauvegarde
+# Utilisé pour Git, sauvegarde locale et sync iCloud
+
+# Node modules
+node_modules/
+package-lock.json
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+.atom/
+
+# Environnement
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Build outputs
+dist/
+build/
+
+# Cache
+.cache/
+*.tmp
+
+# Tests coverage
+coverage/
+.nyc_output/
+
+# Vscode workspace (keep the main one)
+!LexPar_map_v2.code-workspace
+
+# Temporary files
+*~
+*.bak
+*.swp
+.~*

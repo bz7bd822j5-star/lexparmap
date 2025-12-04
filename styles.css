@@ -1,0 +1,655 @@
+/* ========== RESET & GLOBAL ========== */
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* ========== MAP LAYOUT ========== */
+#map {
+  width: 100%;
+  height: calc(100vh - var(--top-bar-height));
+  position: absolute;
+  top: var(--top-bar-height);
+  left: 0;
+  z-index: 1;
+}
+
+/* ========== TOP BAR RESPONSIVE ========== */
+:root {
+  --top-bar-height: 70px;
+  --safe-top: max(10px, env(safe-area-inset-top));
+  --safe-bottom: max(10px, env(safe-area-inset-bottom));
+  --safe-left: max(10px, env(safe-area-inset-left));
+  --safe-right: max(10px, env(safe-area-inset-right));
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--top-bar-height);
+  background: linear-gradient(135deg, #0f3b5f 0%, #1a4d6f 100%);
+  color: white;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: var(--safe-top) var(--safe-right) 0 var(--safe-left);
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3), 0 0 0 1px #d4af37;
+  gap: 8px;
+  border-bottom: 2px solid #d4af37;
+}
+
+.top-bar-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 100px;
+  padding-right: 8px;
+}
+
+.app-title {
+  font-size: clamp(16px, 4vw, 18px);
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.1;
+  color: #d4af37;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.app-subtitle {
+  font-size: clamp(10px, 2.5vw, 12px);
+  opacity: 0.85;
+  margin: 0;
+  line-height: 1;
+}
+
+.top-bar-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 150px;
+}
+
+.search-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+#search {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.top-bar-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+/* ========== AUTO-COMPLÉTION ========== */
+#autocomplete-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  max-height: 300px;
+  overflow-y: auto;
+  display: none;
+  z-index: 9999;
+  margin-top: 4px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.autocomplete-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.autocomplete-list::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 3px;
+}
+
+.autocomplete-item {
+  padding: 12px 14px;
+  cursor: pointer;
+  font-size: 15px;
+  border-bottom: 1px solid #f0f0f0;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.autocomplete-item:active {
+  background: #e8f4f8;
+}
+
+.autocomplete-item:last-child {
+  border-bottom: none;
+}
+
+/* ========== BOUTONS OPTIMISÉS TACTILES ========== */
+.btn-layer, .btn-secondary {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 18px;
+  color: white;
+  cursor: pointer;
+  font-size: clamp(11px, 2.5vw, 13px);
+  font-weight: 500;
+  min-height: 36px;
+  min-width: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+  white-space: nowrap;
+}
+
+.btn-layer:active, .btn-secondary:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-layer {
+  padding: 6px 8px;
+}
+
+.btn-layer.btn-green {
+  background: #27ae60;
+}
+
+.btn-layer.btn-green.active {
+  background: #229954;
+  box-shadow: 0 0 0 3px rgba(39, 174, 96, 0.3);
+}
+
+.btn-layer.btn-yellow {
+  background: #f39c12;
+  color: black;
+}
+
+.btn-layer.btn-yellow.active {
+  background: #d68910;
+  box-shadow: 0 0 0 3px rgba(243, 156, 18, 0.3);
+}
+
+.btn-layer.btn-red {
+  background: #e74c3c;
+}
+
+.btn-layer.btn-red.active {
+  background: #c0392b;
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.3);
+}
+
+.btn-layer.btn-grey {
+  background: #7f8c8d;
+}
+
+.btn-layer.btn-grey.active {
+  background: #34495e;
+  box-shadow: 0 0 0 3px rgba(127, 140, 141, 0.3);
+}
+
+.btn-secondary {
+  background: #0f3b5f;
+  padding: 6px 10px;
+  font-size: clamp(11px, 2.5vw, 12px);
+  border: 1px solid #d4af37;
+}
+
+.btn-secondary:active {
+  background: #1a4d6f;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.4);
+}
+
+.btn-secondary.btn-danger {
+  background: #c0392b;
+}
+
+.btn-secondary.btn-danger:active {
+  background: #a93226;
+}
+
+/* ========== MARQUEURS & CLUSTERS ========== */
+.marker-cluster {
+  background-clip: padding-box;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.marker-cluster-small {
+  background-color: rgba(241, 196, 15, 0.8);
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+}
+
+.marker-cluster-medium {
+  background-color: rgba(243, 156, 18, 0.8);
+  width: 50px;
+  height: 50px;
+  font-size: 15px;
+}
+
+.marker-cluster-large {
+  background-color: rgba(212, 172, 13, 0.9);
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+}
+
+/* ========== POPUPS LEAFLET ========== */
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  padding: 0;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  padding: 12px;
+  font-size: 14px;
+  max-width: 300px;
+}
+
+.leaflet-popup-content a {
+  color: #0f3b5f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.leaflet-popup-content a:active {
+  color: #d4af37;
+  opacity: 0.9;
+}
+
+.leaflet-popup-close-button {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+}
+
+/* ========== MEDIA QUERIES - TABLETS ========== */
+@media (min-width: 768px) and (max-height: 1000px) {
+  :root {
+    --top-bar-height: 60px;
+  }
+  
+  .top-bar-center {
+    flex: 2;
+  }
+}
+
+/* ========== MEDIA QUERIES - ANDROID LANDSCAPE ========== */
+@media (max-height: 500px) {
+  :root {
+    --top-bar-height: 50px;
+  }
+  
+  .app-subtitle {
+    display: none;
+  }
+  
+  .btn-layer {
+    padding: 4px 6px;
+    min-height: 32px;
+    font-size: 11px;
+  }
+}
+
+/* ========== MEDIA QUERIES - SMALL PHONES ========== */
+@media (max-width: 375px) {
+  .top-bar {
+    gap: 4px;
+  }
+  
+  .btn-layer {
+    padding: 5px 6px;
+    font-size: 10px;
+  }
+  
+  .btn-secondary {
+    padding: 5px 8px;
+  }
+}
+
+/* ========== OPTIMISATIONS LEAFLET POUR MOBILES ========== */
+.leaflet-container {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.leaflet-touch .leaflet-control-zoom {
+  border-radius: 8px;
+}
+
+.leaflet-touch .leaflet-control-zoom-in,
+.leaflet-touch .leaflet-control-zoom-out {
+  font-size: 20px;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+}
+
+.leaflet-control-attribution {
+  font-size: 11px;
+  padding: 4px 6px;
+}
+
+/* ========== ÉCRAN DE LOGIN ========== */
+.login-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #0f3b5f 0%, #1a4d6f 50%, #0f3b5f 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+}
+
+.login-container {
+  background: white;
+  border-radius: 16px;
+  padding: 40px 30px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 2px solid #d4af37;
+}
+
+.login-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-title {
+  text-align: center;
+  color: #0f3b5f;
+  font-size: 28px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.login-subtitle {
+  text-align: center;
+  color: #d4af37;
+  font-size: 14px;
+  margin: 0 0 30px 0;
+  font-weight: 600;
+}
+
+.login-form {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: #0f3b5f;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #d4af37;
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+}
+
+.login-error {
+  display: none;
+  background: #ffebee;
+  color: #c62828;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  border: 1px solid #ef5350;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #0f3b5f 0%, #1a4d6f 100%);
+  color: white;
+  border: 2px solid #d4af37;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+}
+
+.btn-login:active {
+  transform: translateY(0);
+}
+
+.login-help {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #666;
+}
+
+.login-help code {
+  background: #e0e0e0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  color: #0f3b5f;
+  font-weight: 600;
+}
+
+/* ========== BADGES RÔLE ========== */
+.role-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.role-badge.admin {
+  background: #d4af37;
+  color: #0f3b5f;
+  border: 1px solid #0f3b5f;
+}
+
+.role-badge.user {
+  background: #4dd0e1;
+  color: #0f3b5f;
+  border: 1px solid #0f3b5f;
+}
+
+/* ========== ÉLÉMENTS ADMIN ONLY ========== */
+.admin-only {
+  display: none;
+}
+
+/* ========== NOTIFICATION CARTE MISE À JOUR ========== */
+.update-notification {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  z-index: 10000;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  pointer-events: none;
+}
+
+.update-notification.show {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  pointer-events: all;
+}
+
+.update-notification-content {
+  background: white;
+  border-radius: 16px;
+  padding: 30px 40px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 3px solid #d4af37;
+  text-align: center;
+  min-width: 300px;
+  max-width: 90vw;
+}
+
+.update-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+  animation: bounce 0.6s ease;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.update-notification h3 {
+  color: #0f3b5f;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+
+.update-notification p {
+  color: #666;
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+
+.btn-close-notification {
+  background: linear-gradient(135deg, #0f3b5f 0%, #1a4d6f 100%);
+  color: white;
+  border: 2px solid #d4af37;
+  border-radius: 8px;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-close-notification:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+}
+
+.btn-close-notification:active {
+  transform: translateY(0);
+}
+
+/* Mobile adjustments */
+@media (max-width: 500px) {
+  .update-notification-content {
+    padding: 20px 30px;
+    min-width: 280px;
+  }
+  
+  .update-icon {
+    font-size: 40px;
+  }
+  
+  .update-notification h3 {
+    font-size: 20px;
+  }
+  
+  .update-notification p {
+    font-size: 14px;
+  }
+}
+
+/* ========== IMPRESSION ========== */
+@media print {
+  .top-bar {
+    display: none;
+  }
+  
+  #map {
+    height: 100%;
+    top: 0;
+  }
+  
+  .login-screen {
+    display: none;
+  }
+}
+
+/* ========== RESPONSIVE LOGIN ========== */
+@media (max-width: 500px) {
+  .login-container {
+    padding: 30px 20px;
+  }
+  
+  .login-title {
+    font-size: 24px;
+  }
+  
+  .login-logo svg {
+    width: 100px;
+    height: 100px;
+  }
+}
