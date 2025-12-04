@@ -22,9 +22,15 @@ class ServiceWorkerManager {
     }
 
     try {
-      // Enregistrer le Service Worker
-      this.registration = await navigator.serviceWorker.register('/sw.js', {
-        scope: '/',
+      // Détection du chemin pour GitHub Pages
+      let swPath = '/sw.js';
+      let swScope = '/';
+      if (window.location.pathname.startsWith('/lexparmap/')) {
+        swPath = '/lexparmap/sw.js';
+        swScope = '/lexparmap/';
+      }
+      this.registration = await navigator.serviceWorker.register(swPath, {
+        scope: swScope,
       });
 
       console.log('✅ Service Worker enregistré:', this.registration);
