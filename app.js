@@ -516,7 +516,6 @@ async function searchAdresse() {
 let ruesParis = [];
 
 // Chargement dynamique du chemin pour GitHub Pages
-let ruesParis = [];
 let base = window.location.pathname.startsWith('/lexparmap/') ? '/lexparmap/' : '';
 fetch(base + "data/rues_paris.json")
   .then((r) => r.json())
