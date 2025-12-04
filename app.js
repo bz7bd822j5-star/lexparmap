@@ -106,7 +106,15 @@ const layers = {
 --------------------------------------------------------- */
 async function loadJSON(url) {
   try {
-    const res = await fetch(url);
+    // Adapter le chemin pour GitHub Pages
+    let base = '';
+    if (window.location.pathname.startsWith('/lexparmap/')) {
+      base = '/lexparmap/';
+    }
+    // Si le chemin commence déjà par /lexparmap/, ne pas doubler
+    let finalUrl = url.startsWith('/') ? url.slice(1) : url;
+    finalUrl = base + finalUrl;
+    const res = await fetch(finalUrl);
     if (!res.ok) throw new Error(res.status);
     return await res.json();
   } catch (err) {
@@ -119,12 +127,12 @@ async function loadJSON(url) {
    🚀 CHARGEMENT GLOBAL DES DONNÉES
 --------------------------------------------------------- */
 async function loadAllData() {
-  drawTerrasses(await loadJSON("./terrasses.json"));
-  drawTravaux(await loadJSON("./travaux.json"));
-  drawPerturbants(await loadJSON("./perturbants.json"));
+  drawTerrasses(await loadJSON("terrasses.json"));
+  drawTravaux(await loadJSON("travaux.json"));
+  drawPerturbants(await loadJSON("perturbants.json"));
 
   // ⭐ BOVP CHARGE ICI
-  drawBOVP(await loadJSON("./bovp_pp_map_master_v13.json"));
+  drawBOVP(await loadJSON("bovp_pp_map_master_v13.json"));
 
   console.log("✔ Toutes les couches sont chargées.");
   
@@ -507,7 +515,10 @@ async function searchAdresse() {
 --------------------------------------------------------- */
 let ruesParis = [];
 
-fetch("./data/rues_paris.json")
+// Chargement dynamique du chemin pour GitHub Pages
+let ruesParis = [];
+let base = window.location.pathname.startsWith('/lexparmap/') ? '/lexparmap/' : '';
+fetch(base + "data/rues_paris.json")
   .then((r) => r.json())
   .then((d) => (ruesParis = d))
   .catch((e) => console.error("Erreur rues_paris.json:", e));
