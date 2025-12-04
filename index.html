@@ -17,39 +17,36 @@
         </svg>
       </div>
       
-      <h1 class="login-title">LexPar Map</h1>
-      <p class="login-subtitle">Police Municipale • DT Centre</p>
-      
-      <form id="login-form" class="login-form">
-        <div class="form-group">
-          <label for="login-username">Identifiant</label>
-          <input type="text" id="login-username" name="username" required autocomplete="username" />
+    <!-- TOP BAR ET CARTE -->
+    <div id="app-container">
+      <header class="top-bar">
+        <div class="top-bar-left">
+          <div class="app-title">👮 LexPar PM</div>
         </div>
-        
-        <div class="form-group">
-          <label for="login-password">Mot de passe</label>
-          <input type="password" id="login-password" name="password" required autocomplete="current-password" />
+        <div class="top-bar-center">
+          <div class="search-wrapper">
+            <input
+              type="text"
+              id="search"
+              placeholder="Rechercher une rue de Paris…"
+              autocomplete="off"
+            />
+            <div id="autocomplete-list" class="autocomplete-list"></div>
+          </div>
         </div>
-        
-            autocomplete="off"
-          />
-          <div id="autocomplete-list" class="autocomplete-list"></div>
+        <div class="top-bar-right">
+          <button id="btnTerrasses" class="btn-layer btn-green active">Terrasses</button>
+          <button id="btnTravaux" class="btn-layer btn-yellow active">Travaux</button>
+          <button id="btnPerturbants" class="btn-layer btn-red active">Perturbants</button>
+          <button id="btnArretes" class="btn-layer btn-grey">Arrêtés</button>
+          <button id="btnGeoloc" class="btn-secondary">Autour de moi</button>
+          <button id="btnDelete" class="btn-secondary btn-danger">Supprimer</button>
         </div>
-      </div>
-      <div class="top-bar-right">
-        <button id="btnTerrasses" class="btn-layer btn-green active">Terrasses</button>
-        <button id="btnTravaux" class="btn-layer btn-yellow active">Travaux</button>
-        <button id="btnPerturbants" class="btn-layer btn-red active">Perturbants</button>
-        <button id="btnArretes" class="btn-layer btn-grey">Arrêtés</button>
-        <button id="btnGeoloc" class="btn-secondary">Autour de moi</button>
-        <button id="btnDelete" class="btn-secondary btn-danger">Supprimer</button>
-      </div>
-    </header>
-
-    <main class="main-layout">
-      <div id="map"></div>
-    </main>
-  </div>
+      </header>
+      <main class="main-layout">
+        <div id="map"></div>
+      </main>
+    </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
