@@ -304,11 +304,16 @@ class ServiceWorkerManager {
         }
       };
 
-      // Envoyer message au Service Worker
-      this.registration.active.postMessage(
-        { type: 'CLEAR_CACHE' },
-        [channel.port2]
-      );
+      // Envoyer message au Service Worker si actif
+      if (this.registration.active) {
+        this.registration.active.postMessage(
+          { type: 'CLEAR_CACHE' },
+          [channel.port2]
+        );
+      } else {
+        console.warn('Service Worker non actif, impossible d’envoyer le message CLEAR_CACHE');
+        resolve(false);
+      }
     });
   }
 
@@ -326,10 +331,15 @@ class ServiceWorkerManager {
         resolve(event.data);
       };
 
-      this.registration.active.postMessage(
-        { type: 'CACHE_URLS', payload: { urls } },
-        [channel.port2]
-      );
+      if (this.registration.active) {
+        this.registration.active.postMessage(
+          { type: 'CACHE_URLS', payload: { urls } },
+          [channel.port2]
+        );
+      } else {
+        console.warn('Service Worker non actif, impossible d’envoyer le message CACHE_URLS');
+        resolve(false);
+      }
     });
   }
 
@@ -348,10 +358,15 @@ class ServiceWorkerManager {
         resolve(event.data.size);
       };
 
-      this.registration.active.postMessage(
-        { type: 'GET_CACHE_SIZE' },
-        [channel.port2]
-      );
+      if (this.registration.active) {
+        this.registration.active.postMessage(
+          { type: 'GET_CACHE_SIZE' },
+          [channel.port2]
+        );
+      } else {
+        console.warn('Service Worker non actif, impossible d’envoyer le message GET_CACHE_SIZE');
+        resolve(0);
+      }
     });
   }
 
