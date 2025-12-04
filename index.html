@@ -52,12 +52,20 @@
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
   <!-- Authentification -->
-  <script src="auth.js"></script>
 
+  <link rel="icon" href="lexparmap/favicon.ico">
+  <script src="lexparmap/auth.js"></script>
   <!-- Service Worker Client Manager -->
-  <script src="sw-client.js"></script>
-
+  <script src="lexparmap/sw-client.js"></script>
   <!-- Application -->
-  <script src="app.js"></script>
+  <script src="lexparmap/app.js"></script>
+  <!-- Initialisation de la carte -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof initMap === 'function') {
+        initMap();
+      }
+    });
+  </script>
 </body>
 </html>
