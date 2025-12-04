@@ -16,7 +16,7 @@ class AuthManager {
         name: 'Administrateur PM'
       }
     ];
-    this.showLogin();
+    this.showApp();
   }
   
   init() {
