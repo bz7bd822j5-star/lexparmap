@@ -4,34 +4,24 @@ class AuthManager {
   constructor() {
     this.currentUser = null;
     this.roles = {
-      USER: 'user',
       ADMIN: 'admin'
     };
-    
-    // Utilisateurs prédéfinis (en prod: base de données)
+    // Seul l'admin existe
     this.users = [
       {
         id: 1,
         username: 'admin',
-        password: 'admin123', // À hasher en production
+        password: 'admin123',
         role: this.roles.ADMIN,
         name: 'Administrateur PM'
       }
     ];
-    
-    this.init();
+    this.showLogin();
   }
   
   init() {
-    // Mode utilisateur direct au démarrage (pas d'écran login)
-    this.currentUser = {
-      id: 0,
-      username: 'user',
-      role: this.roles.USER,
-      name: 'Agent Utilisateur'
-    };
-    this.showApp();
-    this.updateUIForRole();
+    // Désactivé : plus de mode utilisateur direct
+    // L'écran de login est affiché au démarrage
   }
   
   login(username, password) {
@@ -59,23 +49,13 @@ class AuthManager {
   
   logout() {
     localStorage.removeItem('lexpar_user');
-    // Retour en mode utilisateur
-    this.currentUser = {
-      id: 0,
-      username: 'user',
-      role: this.roles.USER,
-      name: 'Agent Utilisateur'
-    };
-    this.updateUIForRole();
-    location.reload(); // Recharger pour réinitialiser l'interface
+    this.currentUser = null;
+    this.showLogin();
+    location.reload();
   }
   
   isAdmin() {
     return this.currentUser && this.currentUser.role === this.roles.ADMIN;
-  }
-  
-  isUser() {
-    return this.currentUser && this.currentUser.role === this.roles.USER;
   }
   
   showLogin() {
@@ -109,35 +89,26 @@ class AuthManager {
     // Afficher nom utilisateur dans top-bar
     const userInfo = document.getElementById('user-info');
     if (userInfo) {
-      userInfo.textContent = this.currentUser.name;
-      userInfo.style.display = 'block';
+      userInfo.textContent = this.currentUser ? this.currentUser.name : '';
+      userInfo.style.display = this.currentUser ? 'block' : 'none';
     }
-    
     // Afficher badge rôle
     const roleBadge = document.getElementById('role-badge');
     if (roleBadge) {
-      roleBadge.textContent = this.isAdmin() ? '👮 ADMIN' : '👤 USER';
-      roleBadge.className = this.isAdmin() ? 'role-badge admin' : 'role-badge user';
-      roleBadge.style.display = 'inline-block';
+      roleBadge.textContent = this.isAdmin() ? '👮 ADMIN' : '';
+      roleBadge.className = this.isAdmin() ? 'role-badge admin' : '';
+      roleBadge.style.display = this.isAdmin() ? 'inline-block' : 'none';
     }
-    
     // Gérer visibilité boutons logout et admin login
     const logoutBtn = document.getElementById('logout-btn');
     const adminLoginBtn = document.getElementById('btnAdminLogin');
-    
     if (this.isAdmin()) {
       if (logoutBtn) logoutBtn.style.display = 'block';
       if (adminLoginBtn) adminLoginBtn.style.display = 'none';
+      this.enableAdminFeatures();
     } else {
       if (logoutBtn) logoutBtn.style.display = 'none';
       if (adminLoginBtn) adminLoginBtn.style.display = 'block';
-    }
-    
-    // Permissions selon rôle
-    if (this.isAdmin()) {
-      this.enableAdminFeatures();
-    } else {
-      this.enableUserFeatures();
     }
   }
   
@@ -157,16 +128,10 @@ class AuthManager {
   }
   
   enableUserFeatures() {
-    console.log('👤 Mode USER activé');
-    
-    // User peut supprimer avec confirmation mais pas autres fonctions admin
+    // Désactivé : plus de mode utilisateur
     document.querySelectorAll('.admin-only').forEach(el => {
-      // Garder visible le bouton supprimer pour users
-      if (el.id !== 'btnDelete') {
-        el.style.display = 'none';
-      }
+      el.style.display = 'none';
     });
-    
     this.enableEditMode = false;
   }
   
