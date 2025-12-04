@@ -170,7 +170,22 @@ let authManager;
 // Initialisation au chargement
 document.addEventListener('DOMContentLoaded', () => {
   authManager = new AuthManager();
-  
+
+  // Bouton pour ouvrir le login admin
+  const topBar = document.querySelector('.top-bar-right') || document.body;
+  let adminLoginBtn = document.getElementById('btnAdminLogin');
+  if (!adminLoginBtn) {
+    adminLoginBtn = document.createElement('button');
+    adminLoginBtn.id = 'btnAdminLogin';
+    adminLoginBtn.className = 'btn-secondary';
+    adminLoginBtn.textContent = 'Options avancées';
+    topBar.appendChild(adminLoginBtn);
+  }
+  adminLoginBtn.style.display = 'block';
+  adminLoginBtn.onclick = () => {
+    authManager.showAdminLogin();
+  };
+
   // Event listeners login
   const loginForm = document.getElementById('login-form');
   if (loginForm) {
@@ -178,7 +193,6 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       const username = document.getElementById('login-username').value;
       const password = document.getElementById('login-password').value;
-      
       if (authManager.login(username, password)) {
         document.getElementById('login-error').style.display = 'none';
         console.log('✅ Connexion réussie');
@@ -188,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
-  
+
   // Bouton déconnexion
   const logoutBtn = document.getElementById('logout-btn');
   if (logoutBtn) {
@@ -196,14 +210,6 @@ document.addEventListener('DOMContentLoaded', () => {
       if (confirm('Êtes-vous sûr de vouloir vous déconnecter ?')) {
         authManager.logout();
       }
-    });
-  }
-  
-  // Bouton Admin Login
-  const adminLoginBtn = document.getElementById('btnAdminLogin');
-  if (adminLoginBtn) {
-    adminLoginBtn.addEventListener('click', () => {
-      authManager.showAdminLogin();
     });
   }
 });
