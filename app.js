@@ -399,39 +399,58 @@ if (document.readyState === 'loading') {
 --------------------------------------------------------- */
 function setupGeolocation() {
   if (!btnGeoloc) return;
-  
-  btnGeoloc.addEventListener("click", (e) => {
-    e.preventDefault();
-    if (!map) return;
-    
-    btnGeoloc.disabled = true;
-    btnGeoloc.textContent = "Localisation...";
 
+  // Géolocalisation automatique au démarrage
+  if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(
       (pos) => {
+        if (!map) return;
         map.setView([pos.coords.latitude, pos.coords.longitude], 18);
         map.flyTo([pos.coords.latitude, pos.coords.longitude], 17);
-
         L.marker([pos.coords.latitude, pos.coords.longitude])
           .addTo(map)
           .bindPopup("📍 Vous êtes ici")
           .openPopup();
-        
-      btnGeoloc.disabled = false;
-      btnGeoloc.textContent = "Autour de moi";
-    },
-    (err) => {
-      console.error("Erreur géoloc:", err);
-      alert("Impossible de récupérer votre position.\nVérifiez vos permissions.");
-      btnGeoloc.disabled = false;
-      btnGeoloc.textContent = "Autour de moi";
-    },
-    {
-      enableHighAccuracy: false,
-      timeout: 10000,
-      maximumAge: 300000, // 5 min cache
-    }
-  );
+      },
+      (err) => {
+        console.warn("Géoloc auto refusée ou impossible.");
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 10000,
+        maximumAge: 300000,
+      }
+    );
+  }
+
+  btnGeoloc.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (!map) return;
+    btnGeoloc.disabled = true;
+    btnGeoloc.textContent = "Localisation...";
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        map.setView([pos.coords.latitude, pos.coords.longitude], 18);
+        map.flyTo([pos.coords.latitude, pos.coords.longitude], 17);
+        L.marker([pos.coords.latitude, pos.coords.longitude])
+          .addTo(map)
+          .bindPopup("📍 Vous êtes ici")
+          .openPopup();
+        btnGeoloc.disabled = false;
+        btnGeoloc.textContent = "Autour de moi";
+      },
+      (err) => {
+        console.error("Erreur géoloc:", err);
+        alert("Impossible de récupérer votre position.\nVérifiez vos permissions.");
+        btnGeoloc.disabled = false;
+        btnGeoloc.textContent = "Autour de moi";
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 10000,
+        maximumAge: 300000, // 5 min cache
+      }
+    );
   });
 }
 
@@ -502,57 +521,51 @@ function setupSearchListeners() {
     if (e.key === "Enter") {
       e.preventDefault();
       searchAdresse();
+      acList.style.display = "none";
+    }
+    if (e.key === "Escape") {
+      acList.style.display = "none";
     }
   });
 
   searchInput.addEventListener("input", () => {
-  clearTimeout(debounceTimer);
-  
-  const q = searchInput.value.toLowerCase().trim();
-
-  if (q.length < 2) {
-    acList.style.display = "none";
-    acList.innerHTML = "";
-    return;
-  }
-
-  debounceTimer = setTimeout(() => {
-    const matches = ruesParis
-      .filter((r) => r.nom.toLowerCase().includes(q))
-      .slice(0, 12);
-
-    acList.innerHTML = "";
-    
-    if (!matches.length) {
+    clearTimeout(debounceTimer);
+    const q = searchInput.value.toLowerCase().trim();
+    if (q.length < 2) {
       acList.style.display = "none";
+      acList.innerHTML = "";
       return;
     }
-
-    matches.forEach((rue) => {
-      const el = document.createElement("div");
-      el.className = "autocomplete-item";
-      el.textContent = `${rue.nom} — ${rue.arrondissement}`;
-
-      el.addEventListener("click", () => {
+    debounceTimer = setTimeout(() => {
+      const matches = ruesParis
+        .filter((r) => r.nom.toLowerCase().includes(q))
+        .slice(0, 12);
+      acList.innerHTML = "";
+      if (!matches.length) {
         acList.style.display = "none";
-        searchInput.value = rue.nom;
-        searchInput.blur();
-
-        map.flyTo([rue.lat, rue.lon], 17, {
-          duration: 0.8,
+        return;
+      }
+      matches.forEach((rue) => {
+        const el = document.createElement("div");
+        el.className = "autocomplete-item";
+        el.textContent = `${rue.nom} — ${rue.arrondissement}`;
+        el.addEventListener("mousedown", (ev) => {
+          ev.preventDefault();
+          acList.style.display = "none";
+          searchInput.value = rue.nom;
+          searchInput.blur();
+          map.flyTo([rue.lat, rue.lon], 17, {
+            duration: 0.8,
+          });
+          L.marker([rue.lat, rue.lon])
+            .addTo(map)
+            .bindPopup(`📍 ${rue.nom}`)
+            .openPopup();
         });
-        
-        L.marker([rue.lat, rue.lon])
-          .addTo(map)
-          .bindPopup(`📍 ${rue.nom}`)
-          .openPopup();
+        acList.appendChild(el);
       });
-
-      acList.appendChild(el);
-    });
-
-    acList.style.display = "block";
-  }, 200); // Debounce 200ms
+      acList.style.display = "block";
+    }, 200);
   });
 }
 
@@ -563,7 +576,7 @@ if (document.readyState === 'loading') {
 }
 
 // Fermer l'autocomplete au clic ailleurs
-document.addEventListener("click", (e) => {
+document.addEventListener("mousedown", (e) => {
   if (!document.querySelector(".search-wrapper").contains(e.target)) {
     acList.style.display = "none";
   }

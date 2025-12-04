@@ -23,22 +23,7 @@ class AuthManager {
   }
   
   init() {
-    // Vérifier si session admin active
-    const savedUser = localStorage.getItem('lexpar_user');
-    if (savedUser) {
-      try {
-        this.currentUser = JSON.parse(savedUser);
-        if (this.isAdmin()) {
-          this.showApp();
-          this.updateUIForRole();
-          return;
-        }
-      } catch (e) {
-        console.error('Session invalide', e);
-      }
-    }
-    
-    // Par défaut: mode utilisateur sans login
+    // Mode utilisateur direct au démarrage (pas d'écran login)
     this.currentUser = {
       id: 0,
       username: 'user',
