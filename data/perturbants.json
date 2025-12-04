@@ -1,0 +1,2162 @@
+[
+  {
+    "adresse": "Secteur quai d'Ivry, 75013",
+    "arrondissement": "7513",
+    "geo": {
+      "lat": 48.824945580960076,
+      "lon": 2.384284439827768
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75013",
+      "Numéro de STV": "14",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "SEMAPA",
+      "Objet": "REAMENAGEMENT_SECTEUR",
+      "Description": "",
+      "Voie(s)": "Secteur quai d'Ivry",
+      "Précisions de localisation": "",
+      "Date de début": "2012-01-01",
+      "Date de fin": "2025-12-31",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Réduction de la circulation selon les phases",
+      "Niveau de perturbation": "2",
+      "Statut": "4",
+      "URL LettreInfoChantier": "http://xdir-CGPub-prd.ressources.paris.mdp/PdfEtImages/ChantiersPerturbants/Pdf/Plaquette d'info riv opé SEG11 BEC Bruneseau - 13ème.pdf"
+    }
+  },
+  {
+    "adresse": "81 - 83 boulevard de Strasbourg, 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.87563107014458,
+      "lon": 2.3576185481744227
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "Eiffage",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "81 - 83 boulevard de Strasbourg",
+      "Précisions de localisation": "Report du terminus RATP.",
+      "Date de début": "2024-11-17",
+      "Date de fin": "2026-06-30",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "198 -- 206 rue de la Croix Nivert, 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.83799505111319,
+      "lon": 2.289274262448886
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "13",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "R.T.E",
+      "Objet": "INSPECTION_ENTRETIEN_RESEAU",
+      "Description": "",
+      "Voie(s)": "198 -- 206 rue de la Croix Nivert",
+      "Précisions de localisation": "",
+      "Date de début": "2025-11-07",
+      "Date de fin": "2025-12-12",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "fermeture du sens sortant aux voitures,vélos,poids lourds. Déviation mise en place.",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Rue  Boullainvilliers, 75016",
+    "arrondissement": "7516",
+    "geo": {
+      "lat": 48.851920958050805,
+      "lon": 2.277550787213821
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75016",
+      "Numéro de STV": "13",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "Maison de la Radio",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "installation de la base vie",
+      "Voie(s)": "Rue  Boullainvilliers",
+      "Précisions de localisation": "du n°2 au n°10",
+      "Date de début": "2019-07-01",
+      "Date de fin": "2025-12-31",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Modification des files de circulation .",
+      "Niveau de perturbation": "2",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue de la Croix Nivert, 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.84409559011973,
+      "lon": 2.296293191211883
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "13",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "SAGP",
+      "Objet": "REAMENAGEMENT_SECTEUR",
+      "Description": "Création d'un  contre sens cyclable avec végétalisation.",
+      "Voie(s)": "rue de la Croix Nivert",
+      "Précisions de localisation": "Depuis la place de Cambronne jusqu'à la rue de Javel.",
+      "Date de début": "2025-01-07",
+      "Date de fin": "2025-12-31",
+      "Impact sur la circulation": "SENS_UNIQUE",
+      "Détail de l'impact sur la circulation": "Fermeture du sens de circulation depuis la place Cambronne vers rue de Javel, l'interdiction sera définitive après les travaux.",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "17-21 rue René Cotty, 75014",
+    "arrondissement": "7514",
+    "geo": {
+      "lat": 48.82947779024149,
+      "lon": 2.334373052957334
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75014",
+      "Numéro de STV": "12",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "musée ville de paris",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "17-21 rue René Cotty",
+      "Précisions de localisation": "",
+      "Date de début": "2025-11-03",
+      "Date de fin": "2026-04-30",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Place Denfert Rochereau, 75014",
+    "arrondissement": "7514",
+    "geo": {
+      "lat": 48.83415565136278,
+      "lon": 2.332637279493124
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75014",
+      "Numéro de STV": "12",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "SAGP",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "Création d'un parc a chien et aménagement de la place Denfert Rochereau(vélos - vl)",
+      "Voie(s)": "Place Denfert Rochereau",
+      "Précisions de localisation": "",
+      "Date de début": "2025-05-05",
+      "Date de fin": "2025-12-18",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "du 28/07/ au 12/08 fermeture total de la rue René Coty(station orly bus- station RER Denfert Rochereau)",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue van Gogh, 75012",
+    "arrondissement": "7512",
+    "geo": {
+      "lat": 48.84411765294246,
+      "lon": 2.371620911674914
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75012",
+      "Numéro de STV": "14",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "CPCU-FraicheurdeParis-",
+      "Objet": "RACCORDEMENT_RESEAU",
+      "Description": "rue Van gogh fermé à la circulation entre rue de bercy et le quai de la Rapée, suivre déviation",
+      "Voie(s)": "rue van Gogh",
+      "Précisions de localisation": "déviations par Diderot et Villot",
+      "Date de début": "2025-06-16",
+      "Date de fin": "2025-12-31",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "déviations vélo et circulation par Diderot et Villot.",
+      "Niveau de perturbation": "1",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "avenue Henri Rol-Tanguy, 75014",
+    "arrondissement": "7514",
+    "geo": {
+      "lat": 48.83386370411516,
+      "lon": 2.332239688952074
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75014",
+      "Numéro de STV": "12",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "musée ville de Paris",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "avenue Henri Rol-Tanguy",
+      "Précisions de localisation": "",
+      "Date de début": "2025-11-03",
+      "Date de fin": "2026-04-30",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Suppression voie BUS",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "24 Boulevard Jourdan, 75014",
+    "arrondissement": "7514",
+    "geo": {
+      "lat": 48.82008183573835,
+      "lon": 2.340350980169904
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75014",
+      "Numéro de STV": "12",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "RATP",
+      "Objet": "TRAVAUX_OUVRAGE",
+      "Description": "",
+      "Voie(s)": "24 Boulevard Jourdan",
+      "Précisions de localisation": "Depuis le rue de la Cité universitaire à la station du RER.",
+      "Date de début": "2025-12-08",
+      "Date de fin": "2025-12-15",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "Travaux de 21h à 5h00 du matin, installation d'une base vie.",
+      "Niveau de perturbation": "1",
+      "Statut": "1",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "3 avenue Victoria, 75001",
+    "arrondissement": "7501",
+    "geo": {
+      "lat": 48.85697450363121,
+      "lon": 2.350050305233319
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75001",
+      "Numéro de STV": "11",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "APHP",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "3 avenue Victoria",
+      "Précisions de localisation": "",
+      "Date de début": "2026-01-05",
+      "Date de fin": "2026-09-11",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "neutralisation d'une voie de circulation.",
+      "Niveau de perturbation": "2",
+      "Statut": "1",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue Rataud, rue Pierre Brossolette., 75005",
+    "arrondissement": "7505",
+    "geo": {
+      "lat": 48.84213805283548,
+      "lon": 2.34694153763722
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75005",
+      "Numéro de STV": "12",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "ESPCI",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "rue Rataud, rue Pierre Brossolette.",
+      "Précisions de localisation": "",
+      "Date de début": "2024-09-05",
+      "Date de fin": "2026-12-31",
+      "Impact sur la circulation": "IMPASSE",
+      "Détail de l'impact sur la circulation": "mise en impasse des deux rues durant toute la durée des travaux.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "du 23 au 27 rue Saint-Quentin, 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.87861607788131,
+      "lon": 2.3556125113066106
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "R.I.V.P",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "du 23 au 27 rue Saint-Quentin",
+      "Précisions de localisation": "",
+      "Date de début": "2024-10-01",
+      "Date de fin": "2026-06-30",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "emprises sur voirie, réduction de voie.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue de l'Aqueduc., 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.88261177365678,
+      "lon": 2.3644037804904943
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "Délégation au Territoire",
+      "Objet": "REAMENAGEMENT_SECTEUR",
+      "Description": "Fermeture du 43 au 41 rue de l'Aqueduc.",
+      "Voie(s)": "rue de l'Aqueduc.",
+      "Précisions de localisation": "Fermeture définitive depuis le 43 au 41 rue de l'Aqueduc avec pose de barrières devant l'entrée de l'école a partir du 03/03/2025",
+      "Date de début": "2025-02-24",
+      "Date de fin": "2026-03-30",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "Fermeture de l'entrée de l'école aux voitures.",
+      "Niveau de perturbation": "1",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "81 - 83 Boulevard de Strasbourg, 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.875627858833006,
+      "lon": 2.357752906252346
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "Eiffage",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "Réduction de la voirie par GBA et K8 pour la gestion des flux VL PL de la base vie au 79 et report d",
+      "Voie(s)": "81 - 83 Boulevard de Strasbourg",
+      "Précisions de localisation": "en face du terminus pour la gestion des VL PL",
+      "Date de début": "2024-11-17",
+      "Date de fin": "2026-06-30",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "place Napoléon, 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.8797009249162,
+      "lon": 2.3550187837566194
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "SAGP",
+      "Objet": "REAMENAGEMENT_SECTEUR",
+      "Description": "",
+      "Voie(s)": "place Napoléon",
+      "Précisions de localisation": "parvis gare du Nord",
+      "Date de début": "2025-07-08",
+      "Date de fin": "2026-02-27",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "sauf RATP",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue Alfred de Vigny, depuis Bd Courcelles à Av Hoche., 75008",
+    "arrondissement": "7508",
+    "geo": {
+      "lat": 48.87869935832171,
+      "lon": 2.305119441833782
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75008",
+      "Numéro de STV": "10",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "CPCU",
+      "Objet": "CREATION_RESEAUX",
+      "Description": "",
+      "Voie(s)": "rue Alfred de Vigny, depuis Bd Courcelles à Av Hoche.",
+      "Précisions de localisation": "7 rue Alfred de Vigny",
+      "Date de début": "2025-09-01",
+      "Date de fin": "2025-12-05",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Place Félix Eboué-rue de Reuilly-avenue Daumesnil-avenue de Reuilly, 75012",
+    "arrondissement": "7512",
+    "geo": {
+      "lat": 48.83977691575033,
+      "lon": 2.3949433989966837
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75012",
+      "Numéro de STV": "14",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "S.A.G.P",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "Travaux en multi phases.",
+      "Voie(s)": "Place Félix Eboué-rue de Reuilly-avenue Daumesnil-avenue de Reuilly",
+      "Précisions de localisation": "",
+      "Date de début": "2024-06-17",
+      "Date de fin": "2025-12-31",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Réduction de voies par G.B.A. fermeture 3 Nuits du 21/10 et 22/10 et 23/10 de 21h à 6h sauf secours",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "79 boulevard de Strasbourg., 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.8752975487471,
+      "lon": 2.357585321445377
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "Eiffage",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "Base de vie.",
+      "Voie(s)": "79 boulevard de Strasbourg.",
+      "Précisions de localisation": "en chaussée centrale du boulevard de Strasbourg.",
+      "Date de début": "2024-11-12",
+      "Date de fin": "2026-06-23",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Réduction de la voirie des BUS et Taxis  sens gare de l'EST boulevard Magenta au droit du  boulevard de Strasbourg.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue du Commandant René Mouchotte, 75014",
+    "arrondissement": "7514",
+    "geo": {
+      "lat": 48.8386860650905,
+      "lon": 2.3200858554613744
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75014",
+      "Numéro de STV": "12",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "SAGP",
+      "Objet": "REAMENAGEMENT_SECTEUR",
+      "Description": "",
+      "Voie(s)": "rue du Commandant René Mouchotte",
+      "Précisions de localisation": "",
+      "Date de début": "2025-06-09",
+      "Date de fin": "2026-03-23",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "26 rue du faubourg Saint-Martin., 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.870031249723084,
+      "lon": 2.3561974276080986
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "privé",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "consolidation des fondation et création d'une voute de soutènement du batiment.",
+      "Voie(s)": "26 rue du faubourg Saint-Martin.",
+      "Précisions de localisation": "du 34 au 18 emprise sur le couloir de bus.",
+      "Date de début": "2025-07-17",
+      "Date de fin": "2026-06-30",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Renvoi des cyclistes et des bus et taxis en circulation générale.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue des Epinettes ., 75017",
+    "arrondissement": "7517",
+    "geo": {
+      "lat": 48.89688752416774,
+      "lon": 2.3238069390139255
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75017",
+      "Numéro de STV": "9",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "CPCU",
+      "Objet": "ENTRETIEN_RESEAU",
+      "Description": "",
+      "Voie(s)": "rue des Epinettes .",
+      "Précisions de localisation": "depuis Bd Bessières au 5 rue des Epinettes.",
+      "Date de début": "2025-08-18",
+      "Date de fin": "2026-12-30",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Boulevard de l'Hopital, 75005",
+    "arrondissement": "7505",
+    "geo": {
+      "lat": 48.841444948688114,
+      "lon": 2.3629204531842793
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75005",
+      "Numéro de STV": "12",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "Fraicheur de Paris",
+      "Objet": "RACCORDEMENT_RESEAU",
+      "Description": "",
+      "Voie(s)": "Boulevard de l'Hopital",
+      "Précisions de localisation": "entre le boulevard Saint Marcel et la place Valhubert",
+      "Date de début": "2025-09-30",
+      "Date de fin": "2025-12-05",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Sens Saint Marcel vers Valhubert réduit à une voie de circulation (2 en situation normale)",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Avenue du Maine - rue du commandant René Mouchotte., 75014",
+    "arrondissement": "7514",
+    "geo": {
+      "lat": 48.84019395600798,
+      "lon": 2.321794576795384
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75014",
+      "Numéro de STV": "12",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "SAGP",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "",
+      "Voie(s)": "Avenue du Maine - rue du commandant René Mouchotte.",
+      "Précisions de localisation": "",
+      "Date de début": "2025-10-30",
+      "Date de fin": "2025-12-05",
+      "Impact sur la circulation": "SENS_UNIQUE",
+      "Détail de l'impact sur la circulation": "fermeture du CF plus de tourne a gauche et droite.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue de Lyon",
+    "arrondissement": "",
+    "geo": {
+      "lat": 48.85164430425998,
+      "lon": 2.3698815478479522
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "",
+      "Numéro de STV": "14",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "OPÉRA BASTILLE",
+      "Objet": "TRAVAUX_OUVRAGE",
+      "Description": "Levage et travaux",
+      "Voie(s)": "rue de Lyon",
+      "Précisions de localisation": "de la rue BIscornet à la place de la Bastille",
+      "Date de début": "2026-01-26",
+      "Date de fin": "2026-02-05",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Restriction de  3 voies à 1 voie (bus et circulation générale)",
+      "Niveau de perturbation": "1",
+      "Statut": "1",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue de l'Amiral Mouchez, 75013",
+    "arrondissement": "7513",
+    "geo": {
+      "lat": 48.81964636510817,
+      "lon": 2.3444198784227677
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75013",
+      "Numéro de STV": "14",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "Mission vélo",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "travaux d'aménagement",
+      "Voie(s)": "rue de l'Amiral Mouchez",
+      "Précisions de localisation": "au niveau du carrefour Bd Kellermann",
+      "Date de début": "2025-11-07",
+      "Date de fin": "2025-12-12",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "la rue de l'amiral Mouchez accès riverain et vélo",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "59- 61 boulevard Haussmann, 75008",
+    "arrondissement": "7508",
+    "geo": {
+      "lat": 48.87384285325348,
+      "lon": 2.3259469835618387
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75008",
+      "Numéro de STV": "9",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "O.G.I.C",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "Création d'un passage sous tunnel pour les piétons, cyclistes et bouche de ventilation RATP",
+      "Voie(s)": "59- 61 boulevard Haussmann",
+      "Précisions de localisation": "emprise et tunnel sur trottoir et chaussée.",
+      "Date de début": "2025-03-24",
+      "Date de fin": "2026-09-14",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "quai de Conti, 75006",
+    "arrondissement": "7506",
+    "geo": {
+      "lat": 48.85634925302535,
+      "lon": 2.3399671001223075
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "915949",
+      "Code postal de l'arrondissement": "75006",
+      "Numéro de STV": "12",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "CPCU",
+      "Objet": "ENTRETIEN_RESEAU",
+      "Description": "emprise sur chaussée réduction circulation reste 1 file de circulation sur 2",
+      "Voie(s)": "quai de Conti",
+      "Précisions de localisation": "5 quai de Conti",
+      "Date de début": "2025-07-15",
+      "Date de fin": "2025-12-19",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "sur la durée total du chantier",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "avenue Débidour, 75019",
+    "arrondissement": "7519",
+    "geo": {
+      "lat": 48.88138487490067,
+      "lon": 2.3969806510859684
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75019",
+      "Numéro de STV": "10",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "SAGP",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "",
+      "Voie(s)": "avenue Débidour",
+      "Précisions de localisation": "",
+      "Date de début": "2025-09-15",
+      "Date de fin": "2025-12-05",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Rue du Docteur Blanche, 75016",
+    "arrondissement": "7516",
+    "geo": {
+      "lat": 48.85351124901634,
+      "lon": 2.265144855721094
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "810335",
+      "Code postal de l'arrondissement": "75016",
+      "Numéro de STV": "13",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "RIVP",
+      "Objet": "CONSTRUCTION_IMMEUBLE",
+      "Description": "Démolition et construction d'un immeuble",
+      "Voie(s)": "Rue du Docteur Blanche",
+      "Précisions de localisation": "Entre la rue Henri Heine et la rue l'Yvette",
+      "Date de début": "2023-03-27",
+      "Date de fin": "2026-07-06",
+      "Impact sur la circulation": "SENS_UNIQUE",
+      "Détail de l'impact sur la circulation": "Mise à sens unique de la rue du Docteur Blanche de la rue Henri Heine à la rue l'Yvette",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "5 rue du Bessin, 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.83097169004043,
+      "lon": 2.3060615779034053
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "13",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "Elogie.Siemp",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "5 rue du Bessin",
+      "Précisions de localisation": "",
+      "Date de début": "2024-10-07",
+      "Date de fin": "2026-02-13",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Réduction de la voirie avec entrée et sortie de poids lourds.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "17 Rue du Faubourg Poissonnière, 75009",
+    "arrondissement": "7509",
+    "geo": {
+      "lat": 48.872227865684295,
+      "lon": 2.3478473766165115
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75009",
+      "Numéro de STV": "11",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "Bâtiment Privé",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "17 Rue du Faubourg Poissonnière",
+      "Précisions de localisation": "17 Faubourg Poissonnière, 2-10 Rue Bergère, \n2 Rue du Conservatoire",
+      "Date de début": "2025-06-26",
+      "Date de fin": "2026-12-15",
+      "Impact sur la circulation": "",
+      "Détail de l'impact sur la circulation": "Réductions des nombres de voies  et fermetures de passage piétons",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue de Lyon",
+    "arrondissement": "",
+    "geo": {
+      "lat": 48.85282670361018,
+      "lon": 2.3696031039415084
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "",
+      "Numéro de STV": "14",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "OPÉRA BASTILLE",
+      "Objet": "TRAVAUX_OUVRAGE",
+      "Description": "Levage tous les lundis et tous les jeudis",
+      "Voie(s)": "rue de Lyon",
+      "Précisions de localisation": "Au n°154 rue de Lyon",
+      "Date de début": "2025-09-29",
+      "Date de fin": "2026-04-30",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Reste 1 file de circulation générale sur 3",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue de Bercy, 75012",
+    "arrondissement": "7512",
+    "geo": {
+      "lat": 48.84340214278029,
+      "lon": 2.3743379954241055
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75012",
+      "Numéro de STV": "14",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "SNCF",
+      "Objet": "TRAVAUX_OUVRAGE",
+      "Description": "Travaux SNCF sur contre-allée et parvis",
+      "Voie(s)": "rue de Bercy",
+      "Précisions de localisation": "de la rue Van Gogh à la rue Rambouillet",
+      "Date de début": "2025-10-03",
+      "Date de fin": "2027-12-31",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "voie restreinte pour les bus et taxis",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue Auguste Dorchain et rue Joseph Liouville, 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.84455472792496,
+      "lon": 2.2978075906291853
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "13",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "SAGP",
+      "Objet": "REAMENAGEMENT_SECTEUR",
+      "Description": "",
+      "Voie(s)": "rue Auguste Dorchain et rue Joseph Liouville",
+      "Précisions de localisation": "Fermeture ponctuelle des deux rues pendant la phases de travaux rue de la Croix Nivert avec mise en sens unique de la rue Joseph Liouville.",
+      "Date de début": "2025-01-13",
+      "Date de fin": "2025-12-31",
+      "Impact sur la circulation": "SENS_UNIQUE",
+      "Détail de l'impact sur la circulation": "fermeture de la rue Dorchain  du 07/01 au 10/03/2025, mise en sens unique de circulation de la rue Liouville du 13/01/ au 31/10/2025? déviation mise en place depuis la rue mademoiselle.",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "61 - 59 Bld Haussmann, 75008",
+    "arrondissement": "7508",
+    "geo": {
+      "lat": 48.87379594480869,
+      "lon": 2.325945345329151
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75008",
+      "Numéro de STV": "9",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "O.G.I.C",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "61 - 59 Bld Haussmann",
+      "Précisions de localisation": "",
+      "Date de début": "2024-09-02",
+      "Date de fin": "2026-09-14",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "2 phases sur trottoir et voie de circulation.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Bretelle sortie Bd Périphérique(bj/18), 75018",
+    "arrondissement": "7518",
+    "geo": {
+      "lat": 48.90024203846762,
+      "lon": 2.3581265643694023
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75018",
+      "Numéro de STV": "9",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "SAGP",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "",
+      "Voie(s)": "Bretelle sortie Bd Périphérique(bj/18)",
+      "Précisions de localisation": "",
+      "Date de début": "2025-04-01",
+      "Date de fin": "2025-12-31",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "1",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Place de la Nation, 75012",
+    "arrondissement": "7512",
+    "geo": {
+      "lat": 48.847721304519226,
+      "lon": 2.396928147068433
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "657955",
+      "Code postal de l'arrondissement": "75012",
+      "Numéro de STV": "14",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "RATP",
+      "Objet": "TRAVAUX_OUVRAGE",
+      "Description": "Travaux relatifs à la modernisation de la ligne 6- - Création d'ouvrage en sous-oeuvre",
+      "Voie(s)": "Place de la Nation",
+      "Précisions de localisation": "Entre avenue du Bel Air et avenue du Trône",
+      "Date de début": "2022-07-18",
+      "Date de fin": "2025-11-28",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue Nationale., 75013",
+    "arrondissement": "7513",
+    "geo": {
+      "lat": 48.83045368798064,
+      "lon": 2.3643144119020167
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75013",
+      "Numéro de STV": "14",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "Mission vélo",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "piste cyclable et verdure",
+      "Voie(s)": "rue Nationale.",
+      "Précisions de localisation": "",
+      "Date de début": "2025-01-13",
+      "Date de fin": "2026-03-06",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "place du colonel Fabien, 75019",
+    "arrondissement": "7519",
+    "geo": {
+      "lat": 48.87801383776766,
+      "lon": 2.370362507056921
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75019",
+      "Numéro de STV": "10",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "SAGP",
+      "Objet": "REAMENAGEMENT_SECTEUR",
+      "Description": "Aménagement de la place,verdure,pieton,cyclable.",
+      "Voie(s)": "place du colonel Fabien",
+      "Précisions de localisation": "",
+      "Date de début": "2025-01-01",
+      "Date de fin": "2026-05-01",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Rue Vaugirard, 75006",
+    "arrondissement": "7506",
+    "geo": {
+      "lat": 48.84926140321307,
+      "lon": 2.3374220509138848
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75006",
+      "Numéro de STV": "12",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "Senat",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "Travaux sur le Senat",
+      "Voie(s)": "Rue Vaugirard",
+      "Précisions de localisation": "Palais du Luxembourg",
+      "Date de début": "2025-07-02",
+      "Date de fin": "2026-07-02",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Réduction des nombres des voies",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "quai de Valmy, 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.87532853084867,
+      "lon": 2.3637241453590185
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "SAGP",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "aménagement en vélorue",
+      "Voie(s)": "quai de Valmy",
+      "Précisions de localisation": "entre Eugéne Varlin et Grange aux Belles",
+      "Date de début": "2025-09-29",
+      "Date de fin": "2026-03-16",
+      "Impact sur la circulation": "IMPASSE",
+      "Détail de l'impact sur la circulation": "déviation cyclistes par le quai Jemmapes. par phase, phase à partir de début octobre 2 mises en impasse de part  et d'autre de l'emprise.",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "12 - 14 rue Vernet, 75008",
+    "arrondissement": "7508",
+    "geo": {
+      "lat": 48.8715977320742,
+      "lon": 2.299349661173419
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75008",
+      "Numéro de STV": "10",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "Entreprise PETIT",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "12 - 14 rue Vernet",
+      "Précisions de localisation": "",
+      "Date de début": "2025-11-13",
+      "Date de fin": "2025-12-19",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "fermeture de la rue Vernet avec mise en inversion de sens de la rue Euler.\nProlongation à prévoir jusqu'en 2027.",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "place du Canada, 75008",
+    "arrondissement": "7508",
+    "geo": {
+      "lat": 48.86482789133244,
+      "lon": 2.3102220024513365
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75008",
+      "Numéro de STV": "9",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "Mission vélo",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "",
+      "Voie(s)": "place du Canada",
+      "Précisions de localisation": "entre l'avenue franklin D Roosevelt et le pont des Invalides.",
+      "Date de début": "2025-11-12",
+      "Date de fin": "2025-12-05",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Chantier Mobile , et réduction de voie.",
+      "Niveau de perturbation": "",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "11 rue Galilée, 75008",
+    "arrondissement": "7508",
+    "geo": {
+      "lat": 48.8682057750075,
+      "lon": 2.2917908344937152
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75008",
+      "Numéro de STV": "13",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "ENEDIS",
+      "Objet": "RACCORDEMENT_RESEAU",
+      "Description": "",
+      "Voie(s)": "11 rue Galilée",
+      "Précisions de localisation": "fermeture de la rue Galilée pour travaux sur chaussée. (du n° 11 au 13)",
+      "Date de début": "2026-01-19",
+      "Date de fin": "2026-01-23",
+      "Impact sur la circulation": "SENS_UNIQUE",
+      "Détail de l'impact sur la circulation": "mise en inversion de sens de circulation de la rue de l'Amiral Hamelin depuis le Bld Kléber jusqu'à la rue Galilée.",
+      "Niveau de perturbation": "1",
+      "Statut": "1",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Rue de Maubeuge, 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.88334292681566,
+      "lon": 2.3550956528458444
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "671912",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "APHP Lariboisière",
+      "Objet": "CONSTRUCTION_IMMEUBLE",
+      "Description": "Hôpital Lariboisière",
+      "Voie(s)": "Rue de Maubeuge",
+      "Précisions de localisation": "Emprise située du n° 111 au n° 119",
+      "Date de début": "2022-10-10",
+      "Date de fin": "2026-06-03",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Emprise sur chaussée + trottoir impair\nCirculation restante : 2 x 3ml",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Rue Niepce, 75014",
+    "arrondissement": "7514",
+    "geo": {
+      "lat": 48.83484937402215,
+      "lon": 2.3183568054757377
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75014",
+      "Numéro de STV": "12",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "RATP",
+      "Objet": "CREATION_ENTRETIEN_OUVRAGE_ART",
+      "Description": "Création d'une sortie de métro piétonne.",
+      "Voie(s)": "Rue Niepce",
+      "Précisions de localisation": "",
+      "Date de début": "2024-03-01",
+      "Date de fin": "2026-07-31",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Avenue Mathurin Moreau, 75019",
+    "arrondissement": "7519",
+    "geo": {
+      "lat": 48.87881337819478,
+      "lon": 2.3777140220428974
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75019",
+      "Numéro de STV": "10",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "Fondation Rothschild",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "Avenue Mathurin Moreau",
+      "Précisions de localisation": "",
+      "Date de début": "2025-01-20",
+      "Date de fin": "2026-02-02",
+      "Impact sur la circulation": "SENS_UNIQUE",
+      "Détail de l'impact sur la circulation": "Mise en sens unique de l'avenue de la rue Manin vers la rue Simon Bolivard",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue du docteur Déjerine, 75020",
+    "arrondissement": "7520",
+    "geo": {
+      "lat": 48.8558437307092,
+      "lon": 2.411908038292106
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75020",
+      "Numéro de STV": "10",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "CPCU",
+      "Objet": "INSPECTION_ENTRETIEN_RESEAU",
+      "Description": "",
+      "Voie(s)": "rue du docteur Déjerine",
+      "Précisions de localisation": "",
+      "Date de début": "2025-05-19",
+      "Date de fin": "2025-11-28",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "1",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "40 rue Desnouettes angle avec rue de la Croix Nivert, 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.83593323671704,
+      "lon": 2.2894636858354747
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "13",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "RATP",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "40 rue Desnouettes angle avec rue de la Croix Nivert",
+      "Précisions de localisation": "",
+      "Date de début": "2025-08-11",
+      "Date de fin": "2026-10-30",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Avenue de la porte d'Aubervilliers, 75019",
+    "arrondissement": "7519",
+    "geo": {
+      "lat": 48.90147192593789,
+      "lon": 2.37014580141031
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75019",
+      "Numéro de STV": "10",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "CPCU",
+      "Objet": "CREATION_RESEAUX",
+      "Description": "",
+      "Voie(s)": "Avenue de la porte d'Aubervilliers",
+      "Précisions de localisation": "",
+      "Date de début": "2025-11-12",
+      "Date de fin": "2026-04-03",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "neutralisation d'une voie de circulation sur les deux.",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Boulevard de l'Hopital, 75005",
+    "arrondissement": "7505",
+    "geo": {
+      "lat": 48.84219098441977,
+      "lon": 2.3640339656032325
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75005",
+      "Numéro de STV": "12",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "A7A8",
+      "Objet": "CONSTRUCTION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "Boulevard de l'Hopital",
+      "Précisions de localisation": "au n°11",
+      "Date de début": "2024-01-08",
+      "Date de fin": "2026-10-09",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Neutralisation du trottoir, déviation piétonne obligatoire sur le trottoir d'en face",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "2-4 rue Royale, 75008",
+    "arrondissement": "7508",
+    "geo": {
+      "lat": 48.867256934187296,
+      "lon": 2.3224466821551357
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75008",
+      "Numéro de STV": "9",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "Fraicheur de Paris",
+      "Objet": "ENTRETIEN_RESEAU",
+      "Description": "Réparation de fuites importantes.",
+      "Voie(s)": "2-4 rue Royale",
+      "Précisions de localisation": "",
+      "Date de début": "2025-03-03",
+      "Date de fin": "2025-12-19",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Emprise en milieu de chaussée avec réduction de voie de circulation sens Concorde -place de  la Madeleine.",
+      "Niveau de perturbation": "1",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Carrefour rue Serpolet et rue Louis Lumière, 75020",
+    "arrondissement": "7520",
+    "geo": {
+      "lat": 48.860771500296835,
+      "lon": 2.4110882371476383
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75020",
+      "Numéro de STV": "10",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "ENEDIS",
+      "Objet": "RACCORDEMENT_RESEAU",
+      "Description": "",
+      "Voie(s)": "Carrefour rue Serpolet et rue Louis Lumière",
+      "Précisions de localisation": "",
+      "Date de début": "2025-12-04",
+      "Date de fin": "2025-12-12",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "1",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue Paul Barruel Paris 15, 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.83954177580066,
+      "lon": 2.304658267792856
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "13",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "MACON DE FRANCE",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "rue Paul Barruel Paris 15",
+      "Précisions de localisation": "Du n ° 10 au  16",
+      "Date de début": "2024-10-21",
+      "Date de fin": "2026-10-31",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "fermeture du trottoir coté pair du 10 au 16 rue Paul Barruel et renvoie des piétons coté impair. Réduction de la voirie pendant toute la durée des travaux.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "58 Rue de Rivoli, 75004",
+    "arrondissement": "7504",
+    "geo": {
+      "lat": 48.857165818511,
+      "lon": 2.353098516403715
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75004",
+      "Numéro de STV": "11",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "RATP",
+      "Objet": "SONDAGES_INJECTIONS",
+      "Description": "Sondages et travaux d'étanchéité sur ouvrage",
+      "Voie(s)": "58 Rue de Rivoli",
+      "Précisions de localisation": "",
+      "Date de début": "2025-08-04",
+      "Date de fin": "2025-11-28",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Fermeture de la vois de bus et les bus sont renvoyé dans la circulation générale",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Avenue Ernest Renan, 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.831377103388654,
+      "lon": 2.286453825475676
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "13",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "RATP",
+      "Objet": "TRAVAUX_TRAMWAY",
+      "Description": "gare terminus.",
+      "Voie(s)": "Avenue Ernest Renan",
+      "Précisions de localisation": "",
+      "Date de début": "2025-07-01",
+      "Date de fin": "2026-02-28",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue Lafayette et rue de l'Aqueduc, 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.87984282429404,
+      "lon": 2.359292274047231
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "SNCF",
+      "Objet": "CREATION_ENTRETIEN_OUVRAGE_ART",
+      "Description": "Création d'un passage piéton souterrain.\ngare du nord-gare de l'est.",
+      "Voie(s)": "rue Lafayette et rue de l'Aqueduc",
+      "Précisions de localisation": "",
+      "Date de début": "2024-09-16",
+      "Date de fin": "2027-02-02",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Itinéraire préconisé cyclable sur la rue de l'Aqueduc en BIDI provisoire.\nTravaux impactant la circulation générale sens GDN boulevard de Stalingrad.",
+      "Niveau de perturbation": "1",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "",
+    "arrondissement": "7512",
+    "geo": {
+      "lat": 48.839379679853586,
+      "lon": 2.39662252961462
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75012",
+      "Numéro de STV": "14",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "Fayolle",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "",
+      "Voie(s)": "",
+      "Précisions de localisation": "Place Félix Eboué.",
+      "Date de début": "2024-08-01",
+      "Date de fin": "2025-12-31",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Plusieurs voies réduites pour la circulation et création de voies cyclables provisoires le temps des travaux. fermeture 3 Nuits du 21/10 et 22/10 et 23/10 de 21h à 6h sauf secours",
+      "Niveau de perturbation": "1",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Oreille rue de Provence, rue de rome, Bld Haussamnn, 75008",
+    "arrondissement": "7508",
+    "geo": {
+      "lat": 48.87404821223789,
+      "lon": 2.3259813854514197
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75008",
+      "Numéro de STV": "9",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "O.G.I.C",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "Création d'une base vie.",
+      "Voie(s)": "Oreille rue de Provence, rue de rome, Bld Haussamnn",
+      "Précisions de localisation": "",
+      "Date de début": "2025-03-24",
+      "Date de fin": "2026-09-14",
+      "Impact sur la circulation": "",
+      "Détail de l'impact sur la circulation": "base vie stationnée entre les balisées pour maintenir une giration bus et pompier.\nR + 5 la base vie.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Boulevard Berthier, 75017",
+    "arrondissement": "7517",
+    "geo": {
+      "lat": 48.89233170224288,
+      "lon": 2.309185130791831
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75017",
+      "Numéro de STV": "10",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "RAZEL",
+      "Objet": "TRAVAUX_OUVRAGE",
+      "Description": "",
+      "Voie(s)": "Boulevard Berthier",
+      "Précisions de localisation": "Depuis la porte d'Asnières a l'avenue de Clichy",
+      "Date de début": "2025-03-31",
+      "Date de fin": "2025-12-26",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Fermeture de la piste cyclable et piétons .Renvoi des vélos en circulation générale et les piétons sur le trottoir opposé coté pair.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "12 rue des Fêtes, 75019",
+    "arrondissement": "7519",
+    "geo": {
+      "lat": 48.87646337009393,
+      "lon": 2.3923728976166165
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75019",
+      "Numéro de STV": "10",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "D.J.S",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "réhabilitation du bain douche Petitot",
+      "Voie(s)": "12 rue des Fêtes",
+      "Précisions de localisation": "",
+      "Date de début": "2025-01-06",
+      "Date de fin": "2026-01-29",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue de Dantzig, 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.83042101173876,
+      "lon": 2.296080646014851
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "13",
+      "Typologie": "",
+      "Maitre d'ouvrage": "",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "aménagement et végétalisation de la rue",
+      "Voie(s)": "rue de Dantzig",
+      "Précisions de localisation": "entre le bd Lefebvre et la rue des Périchaux_",
+      "Date de début": "2025-11-12",
+      "Date de fin": "2026-02-27",
+      "Impact sur la circulation": "",
+      "Détail de l'impact sur la circulation": "Neutralisation d'une file de circulation = voie entrante dans Paris entre le bd Lefebvre et la rue des Périchaux (à rejoindre via rue J. Dupré)_",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue de la Fayette du 168 au 178, 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.88023383674407,
+      "lon": 2.3604477837174476
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "SNCF",
+      "Objet": "CREATION_ENTRETIEN_OUVRAGE_ART",
+      "Description": "",
+      "Voie(s)": "rue de la Fayette du 168 au 178",
+      "Précisions de localisation": "",
+      "Date de début": "2025-07-21",
+      "Date de fin": "2027-03-30",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "fermeture de la rue sauf BUS.\nrenvoi de vélos sur la rue de l'Aqueduc.",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "105 quai d'Austerlitz, 75013",
+    "arrondissement": "7513",
+    "geo": {
+      "lat": 48.843290055443894,
+      "lon": 2.3658842475634936
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75013",
+      "Numéro de STV": "14",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "BOUYGUES",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "105 quai d'Austerlitz",
+      "Précisions de localisation": "",
+      "Date de début": "2025-09-29",
+      "Date de fin": "2027-04-01",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Avenue Ernest Renan, 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.831600840119194,
+      "lon": 2.286437328873212
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "13",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "RATP",
+      "Objet": "TRAVAUX_OUVRAGE",
+      "Description": "Ouverture de la circulation et emprise sur trottoir",
+      "Voie(s)": "Avenue Ernest Renan",
+      "Précisions de localisation": "Du boulevard Victor à l'entré du Périphérique",
+      "Date de début": "2025-08-31",
+      "Date de fin": "2026-02-28",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Emprise à proximité de la chaussé et chaussée réduite",
+      "Niveau de perturbation": "2",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "42 boulevard du Montparnasse., 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.8447949508643,
+      "lon": 2.3207923341848087
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "12",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "R.A.T.P",
+      "Objet": "TRAVAUX_OUVRAGE",
+      "Description": "Travaux de réfaction et d'agrandissement du réseaux de ventilation RATP.",
+      "Voie(s)": "42 boulevard du Montparnasse.",
+      "Précisions de localisation": "du 42 au 48 angle rue d'Alençon.",
+      "Date de début": "2024-10-07",
+      "Date de fin": "2026-02-16",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Fermeture du couloir de BUS RATP et renvoie des BUS dans la circulation générale. Réduction de la largeur du trottoir du 42 au 44.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Place ValHubert, 75005",
+    "arrondissement": "7505",
+    "geo": {
+      "lat": 48.84397185783475,
+      "lon": 2.3646557380026203
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75005",
+      "Numéro de STV": "12",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "",
+      "Objet": "ENTRETIEN_RESEAU",
+      "Description": "",
+      "Voie(s)": "Place ValHubert",
+      "Précisions de localisation": "Face au Boulevard de L'hôpital",
+      "Date de début": "2025-07-30",
+      "Date de fin": "2025-12-02",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Réduction de nombre des voies de circulation, déviation des cyclistes ainsi que des piétons",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "24 Boulevard Jourdan, 75014",
+    "arrondissement": "7514",
+    "geo": {
+      "lat": 48.82028808072118,
+      "lon": 2.339628073353198
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75014",
+      "Numéro de STV": "12",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "RATP",
+      "Objet": "TRAVAUX_OUVRAGE",
+      "Description": "",
+      "Voie(s)": "24 Boulevard Jourdan",
+      "Précisions de localisation": "depuis la rue de la Cité Universitaire à la zone du tramway.",
+      "Date de début": "2025-12-08",
+      "Date de fin": "2028-10-31",
+      "Impact sur la circulation": "SENS_UNIQUE",
+      "Détail de l'impact sur la circulation": "Entrée et sortie de camion depuis le parc Montsouris, gestion des piétons et des cyclistes pendant les phases d'entrées et de sorties des P.L",
+      "Niveau de perturbation": "1",
+      "Statut": "1",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Av de France, 75013",
+    "arrondissement": "7513",
+    "geo": {
+      "lat": 48.82630766425324,
+      "lon": 2.3799694728731717
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75013",
+      "Numéro de STV": "14",
+      "Typologie": "2",
+      "Maitre d'ouvrage": "SNCF",
+      "Objet": "TRAVAUX_OUVRAGE",
+      "Description": "Couverture des voies SNCF",
+      "Voie(s)": "Av de France",
+      "Précisions de localisation": "côté voies SNCF entre rue Julie Daubié et rue Nicole Rein-Lepaute.",
+      "Date de début": "2018-07-23",
+      "Date de fin": "2025-12-31",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Les deux sens de circulations sont reportés côté pair de l'avenue.",
+      "Niveau de perturbation": "2",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "rue Nationale, 75013",
+    "arrondissement": "7513",
+    "geo": {
+      "lat": 48.83219893646782,
+      "lon": 2.362797787744104
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75013",
+      "Numéro de STV": "14",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "mission vélo",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "",
+      "Voie(s)": "rue Nationale",
+      "Précisions de localisation": "depuis bd Vincent Auriol jusqu'à la rue du docteur Charles Richet.",
+      "Date de début": "2025-01-13",
+      "Date de fin": "2026-03-06",
+      "Impact sur la circulation": "BARRAGE_TOTAL",
+      "Détail de l'impact sur la circulation": "Barrage de la demi-chaussée depuis Bd Vincent Auriol jusqu'à la rue docteur Charles Richet.",
+      "Niveau de perturbation": "1",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "189 rue de Vaugirard, 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.842572560704156,
+      "lon": 2.3117284671910614
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "13",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "Vittali",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "Emprise sur chaussée avec passage en lisse pour le cheminement piéton.",
+      "Voie(s)": "189 rue de Vaugirard",
+      "Précisions de localisation": "",
+      "Date de début": "2025-03-26",
+      "Date de fin": "2026-09-30",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Bus et véhicules en circulation générale.\nVélos maintenue de Bd Pasteur à rue Favorites et en circulation générale de rue Germaine de Stael au Bd Pasteur.",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "178 rue du Faubourg Saint-Martin angle rue du Terrage., 75010",
+    "arrondissement": "7510",
+    "geo": {
+      "lat": 48.877908478189966,
+      "lon": 2.361857087204525
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75010",
+      "Numéro de STV": "11",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "Groupe 3 F",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "178 rue du Faubourg Saint-Martin angle rue du Terrage.",
+      "Précisions de localisation": "",
+      "Date de début": "2025-06-17",
+      "Date de fin": "2027-05-28",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Réduction a 2 voies de circulation.",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "164 rue de Rivoli, 75001",
+    "arrondissement": "7501",
+    "geo": {
+      "lat": 48.86176405953054,
+      "lon": 2.3384264252805
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75001",
+      "Numéro de STV": "11",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "NOREA",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "",
+      "Voie(s)": "164 rue de Rivoli",
+      "Précisions de localisation": "",
+      "Date de début": "2025-08-11",
+      "Date de fin": "2026-03-31",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Renvoi des bus en circulation générale. voie  protégé par des B11",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Quai André Citroën, 75015",
+    "arrondissement": "7515",
+    "geo": {
+      "lat": 48.84843637487578,
+      "lon": 2.2812529587641186
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "811445",
+      "Code postal de l'arrondissement": "75015",
+      "Numéro de STV": "13",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "TS DIAMOND SCI",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "Réhabilitation de la Tour Cristal",
+      "Voie(s)": "Quai André Citroën",
+      "Précisions de localisation": "Au niveau du 5 - 11 Quai André Citroën et du 1 - 5 rue de l'ingénieur Keller",
+      "Date de début": "2023-06-12",
+      "Date de fin": "2025-12-31",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Traversée piétonne obligatoire et provisoire au 1 rue de l'ingénieur Keller et dévié au 13 quai André Citroën car fermé au n°11.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Quai Voltaire, 75007",
+    "arrondissement": "7507",
+    "geo": {
+      "lat": 48.85926763703709,
+      "lon": 2.329935695831666
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75007",
+      "Numéro de STV": "12",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "Musée d'Orsay",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "Deux chantiers de réhabilitation de bâtiments publics pour le musée d'Orsay et le conseil d'état.",
+      "Voie(s)": "Quai Voltaire",
+      "Précisions de localisation": "aux n°29-31",
+      "Date de début": "2024-10-01",
+      "Date de fin": "2026-08-01",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Réduction du quai Voltaire à une voie de circulation dans le sens Est/Ouest",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Place Nationale., 75013",
+    "arrondissement": "7513",
+    "geo": {
+      "lat": 48.829069102306285,
+      "lon": 2.365232422484482
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75013",
+      "Numéro de STV": "14",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "Mission vélo",
+      "Objet": "REAMENAGEMENT_SECTEUR",
+      "Description": "",
+      "Voie(s)": "Place Nationale.",
+      "Précisions de localisation": "",
+      "Date de début": "2025-01-13",
+      "Date de fin": "2026-03-06",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "Dépose des bordures pour une Giration optimal et renvoie des vélos dans la circulation générale rue du Château des Rentiers jusqu'à la rue Clisson.",
+      "Niveau de perturbation": "2",
+      "Statut": "4",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "61-59 boulevard Haussmann, 75008",
+    "arrondissement": "7508",
+    "geo": {
+      "lat": 48.87390229794389,
+      "lon": 2.3258347373474058
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75008",
+      "Numéro de STV": "9",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "O.G.I.C",
+      "Objet": "REHABILITATION_IMMEUBLE",
+      "Description": "emprise sur chaussée pour les travaux du bâtiment.",
+      "Voie(s)": "61-59 boulevard Haussmann",
+      "Précisions de localisation": "",
+      "Date de début": "2024-09-14",
+      "Date de fin": "2026-09-14",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "une voie neutralisée du 63 au 59 boulevard Haussmann.",
+      "Niveau de perturbation": "2",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "Rue Guy Lussac, 75005",
+    "arrondissement": "7505",
+    "geo": {
+      "lat": 48.842300054626904,
+      "lon": 2.34300402784611
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75005",
+      "Numéro de STV": "12",
+      "Typologie": "1",
+      "Maitre d'ouvrage": "SAGP",
+      "Objet": "REAMENAGEMENT_SECTEUR",
+      "Description": "Végétalisation et agrandissement du trottoir \ncoté paire .",
+      "Voie(s)": "Rue Guy Lussac",
+      "Précisions de localisation": "à partir du croisement de la rue du Saint Jacque jusqu'à l'angle de la rue Claude Bernard",
+      "Date de début": "2025-08-04",
+      "Date de fin": "2025-11-28",
+      "Impact sur la circulation": "SENS_UNIQUE",
+      "Détail de l'impact sur la circulation": "Rue mises en sens unique à compté de 25/08/2025 jusqu' au fin de travaux 28/11/2025",
+      "Niveau de perturbation": "1",
+      "Statut": "2",
+      "URL LettreInfoChantier": ""
+    }
+  },
+  {
+    "adresse": "avenue Jean Jaures place Auguste Baron, 75019",
+    "arrondissement": "7519",
+    "geo": {
+      "lat": 48.9012847253114,
+      "lon": 2.3895846532850067
+    },
+    "info": {
+      "Identifiant": "",
+      "Identifiant CTV": "",
+      "Code postal de l'arrondissement": "75019",
+      "Numéro de STV": "10",
+      "Typologie": "3",
+      "Maitre d'ouvrage": "DGSE 93",
+      "Objet": "REAMENAGEMENT_VOIRIE",
+      "Description": "",
+      "Voie(s)": "avenue Jean Jaures place Auguste Baron",
+      "Précisions de localisation": "",
+      "Date de début": "2025-12-08",
+      "Date de fin": "2026-12-15",
+      "Impact sur la circulation": "RESTREINTE",
+      "Détail de l'impact sur la circulation": "",
+      "Niveau de perturbation": "2",
+      "Statut": "1",
+      "URL LettreInfoChantier": ""
+    }
+  }
+]
